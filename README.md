@@ -2,7 +2,7 @@
 
 Agente de chat que actúa como punto único de recepción de contratos: lee el buzón, extrae los datos de cada contrato con confianza por campo, detecta duplicados y otrosíes, registra en el maestro (CSV en un SharePoint simulado), pide confirmación humana para los campos dudosos y genera alertas de vencimiento y pólizas.
 
-**Link de prueba:** pendiente.
+**Link de prueba:** https://reto-02-registro-contratos.onrender.com (plan gratuito de Render: la primera visita puede tardar 30–60 s en despertar)
 
 ## Levantar en local
 

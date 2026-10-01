@@ -120,7 +120,7 @@ Determinista (regex y heurísticas sobre el `.txt`), en `src/tools/extraccion.ts
 | HU-5 Alertas | Hecho | `out/alertas.md` con 3 secciones y `hoy` como argumento. Falta envío programado a gerencia. |
 | HU-6 Errores | Hecho | `{ ok:false, error }` legibles (mensaje inexistente, fecha inválida, moneda desconocida, adjunto vacío). El lote continúa. |
 | Front, API, sesiones, topes | Hecho | Reutilizados del reto 01. Falta streaming y autenticación. |
-| Link público | Pendiente | Despliegue por definir. |
+| Link público | Hecho | https://reto-02-registro-contratos.onrender.com (Render, plan gratuito). |
 | Bonus `modulo/` | Hecho | `agent.md` y `SKILL.md` se generan desde las fuentes (`npm run modulo`); `tools/contratos.ts` re-exporta las herramientas reales. |
 
 ## 10. Uso de IA
