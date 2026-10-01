@@ -1,0 +1,20 @@
+{
+  "umbral_confianza": 0.8,
+  "umbral_similitud_objeto": 0.9,
+  "dias_alerta_vencimiento": 60,
+  "fecha_corte_maestro": "2026-05-30",
+  "max_caracteres_objeto": 200,
+  "nit_propio": "900123456",
+  "monedas": ["COP", "USD", "PEN", "PAB", "HNL"],
+  "paises": ["CO", "EC", "PE", "PA", "HN"],
+  "extensiones_contrato": [".txt", ".pdf"],
+  "campos_obligatorios_nuevo": ["id_contrato", "cliente", "nit_cliente", "pais", "objeto", "valor", "moneda", "fecha_inicio", "fecha_fin"],
+  "tipos_poliza": {
+    "cumplimiento": "cumplimiento",
+    "responsabilidad civil": "responsabilidad_civil",
+    "calidad": "calidad",
+    "salarios y prestaciones": "salarios_prestaciones",
+    "salarios": "salarios_prestaciones"
+  },
+  "sufijos_razon_social": ["s.a.s.", "s.a.c.", "s.a.", "s. de r.l.", "ltda.", "ltda", "s.r.l."]
+}
