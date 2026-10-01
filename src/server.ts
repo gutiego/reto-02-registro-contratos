@@ -44,7 +44,7 @@ const sesiones = new AlmacenSesiones(path.join(rutas({ directory: raiz, sessionI
 const app = new Hono()
 
 const cuerpoChat = z.object({
-  sessionId: z.string().regex(ID_VALIDO).optional(),
+  sessionId: z.string().regex(ID_VALIDO).nullish(),
   message: z.string().trim().min(1).max(4000),
 })
 

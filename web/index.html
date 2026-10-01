@@ -132,7 +132,7 @@ async function enviar(texto) {
   $("pensando").style.display = "block"
   bajar()
   try {
-    const r = await fetch("/api/chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ sessionId, message: texto }) })
+    const r = await fetch("/api/chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(sessionId ? { sessionId, message: texto } : { message: texto }) })
     const d = await r.json()
     if (!r.ok) throw new Error(d.error || `HTTP ${r.status}`)
     sessionId = d.sessionId
