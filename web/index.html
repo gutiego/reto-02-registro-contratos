@@ -27,7 +27,7 @@
   header .meta { color: var(--muted); font-size: 13px; }
   header button { background: none; border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
   #chat { flex: 1; overflow-y: auto; padding: 16px 0; display: flex; flex-direction: column; gap: 14px; }
-  .msg { padding: 10px 14px; border-radius: 10px; background: var(--panel); border: 1px solid var(--border); overflow-x: auto; }
+  .msg { flex-shrink: 0; padding: 10px 14px; border-radius: 10px; background: var(--panel); border: 1px solid var(--border); overflow-x: auto; }
   .msg.usuario { background: var(--user); align-self: flex-end; max-width: 80%; white-space: pre-wrap; }
   .msg.error { border-color: var(--err); }
   .msg.confirmar { background: var(--confirm-bg); border: 2px solid var(--confirm-border); }
